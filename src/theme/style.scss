@@ -1,0 +1,15 @@
+// theme color
+$base-color: #2C9A7A;
+$primary-color: #5ab9ea;
+$background-color:rgb(228, 228, 238);
+$background-primary-color: #e3eee8;
+$base-two-color: #5680e9;
+$white-color: #fff;
+
+// class base
+
+.panel {
+  background-color: $background-color;
+  padding: 10px 15px;
+  margin: 60px auto;
+}

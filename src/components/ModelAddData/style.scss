@@ -1,0 +1,14 @@
+.add-form-page {
+  max-width: 600px;
+  margin: 0 auto;
+  .add-form {
+    .value-input {
+      background-color: #fff;
+      border: none
+    }
+  }
+  .login-button {
+      margin: 10px 0;
+      height: 55px;
+  }
+}
