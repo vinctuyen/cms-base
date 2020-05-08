@@ -1,6 +1,80 @@
+@import "../../theme//style.scss";
 .chart {
-    width: 100% !important;
-    svg {
-        width: 100%;
-    }
+  width: 100% !important;
+  svg {
+    width: 100%;
+  }
+}
+.card__stats {
+  // background: $primary;
+  padding: 0 !important;
+  display: flex;
+  flex-direction: column;
+}
+.title__stats {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 20px !important;
+  position: relative;
+}
+.padding__none {
+  padding: 0;
+}
+.type__stats {
+  color: #999;
+  font-size: 14px;
+}
+.label__stats {
+  position: absolute;
+  border-radius: 3px;
+
+  left: 0;
+  padding: 15px;
+}
+.label__stats1 {
+  background: linear-gradient(60deg, #ffa726, #fb8c00);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(255, 152, 0, 0.4);
+}
+.label__stats2 {
+  background: linear-gradient(60deg, #66bb6a, #43a047);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(76, 175, 80, 0.4);
+}
+.label__stats3 {
+  background: linear-gradient(60deg, #ef5350, #e53935);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(244, 67, 54, 0.4);
+}
+.label__stats4 {
+  background: linear-gradient(60deg, #26c6da, #00acc1);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.14),
+    0 7px 10px -5px rgba(0, 188, 212, 0.4);
+}
+
+.icon__stats {
+  font-size: 36px !important;
+  line-height: 56px !important;
+  width: 56px !important;
+  height: 56px !important;
+  text-align: center;
+  color: white !important;
+}
+.value__stats {
+  font-size: 1.825em;
+  color: $secondary;
+}
+.divider__stats {
+  width: 100%;
+}
+.footer__stats {
+  margin-top: 10px !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #999;
+  font-size: 12px;
+  line-height: 22px;
 }

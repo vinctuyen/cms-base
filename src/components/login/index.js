@@ -50,7 +50,7 @@ function LoginComponent() {
   } else
     return (
       <div className="login-page">
-        <h1>Login Page</h1>
+        <h1>Admin System</h1>
         <form className={"login-form"} noValidate id="formTest">
           <TextField
             variant="outlined"
@@ -83,6 +83,7 @@ function LoginComponent() {
             onKeyPress={handleOnPressEnter}
           />
           <FormControlLabel
+            className="remmber"
             control={
               <Checkbox
                 value="remember"
@@ -91,6 +92,7 @@ function LoginComponent() {
               />
             }
             label="Remember me"
+            color="white"
           />
           <Button
             // type="submit"
@@ -104,14 +106,14 @@ function LoginComponent() {
           >
             Sign In
           </Button>
-          <Grid container>
+          <Grid container className="group-function-account">
             <Grid item xs>
-              <Link href="#" variant="body2">
+              <Link href="#" variant="body2" className="astyle">
                 Forgot password?
               </Link>
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="#" variant="body2" className="astyle">
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>

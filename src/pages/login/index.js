@@ -32,7 +32,7 @@ class Login extends React.Component {
     return (
       <Provider store={userStore}>
         <IntlProvider>
-          <div style={{ display: "flex" }}>
+          <div style={{ display: "flex", justifyContent: "center", alignItems: "center",height: '100%'}}>
             <LoginContainer />
           </div>
         </IntlProvider>

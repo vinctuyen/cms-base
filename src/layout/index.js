@@ -6,6 +6,7 @@ import List from "@material-ui/core/List";
 import Icon from "@material-ui/core/Icon";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
+import Divider from '@material-ui/core/Divider';
 
 import "./style.scss";
 const layout = "/layout";
@@ -65,7 +66,6 @@ class Layout extends React.Component {
         <div className="slide">
           <div className="slide-bar">
             <div className="" style={{ zIndex: 5 }}>
-              dadjfklsajkfdlk
             </div>
             {links(pathLocation)}
           </div>
@@ -74,6 +74,7 @@ class Layout extends React.Component {
           <div className="header">
             <PrimarySearchAppBar />
           </div>
+          <Divider className="divider"/>
           <div className="content">{switchRoutes}</div>
         </div>
       </div>

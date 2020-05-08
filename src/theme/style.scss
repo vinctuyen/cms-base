@@ -4,12 +4,36 @@ $primary-color: #5ab9ea;
 $background-color:rgb(228, 228, 238);
 $background-primary-color: #e3eee8;
 $base-two-color: #5680e9;
-$white-color: #fff;
 
+$primary: #FB8122;
+$secondary: #1D2228;
+$tertiary: #E1E2E2;
+$white: #fff;
+$black: #000;
+$secondary-child: #ff7200;
 // class base
 
 .panel {
-  background-color: $background-color;
+  background-color: $tertiary;
   padding: 10px 15px;
   margin: 60px auto;
+  border-radius: 5px;
 }
+.card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  display: flex;
+  position: relative;
+  border: 0;
+  width: 100%;
+  border-radius: 6px;
+  flex-direction: column;
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  background: $white;
+  font-size: .875rem;
+  color: $secondary;
+}
+.divider {
+  background: $primary;
+}
+
