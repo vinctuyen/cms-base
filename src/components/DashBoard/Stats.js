@@ -14,69 +14,69 @@ import "./style.scss";
 function Stats() {
   const data = [
     {
-      name: "Page A",
-      uv: 4000,
-      pv: 2400,
+      name: "13/05/2020",
+      price: 4000,
+      count: 2400,
       amt: 2400,
     },
     {
-      name: "Page B",
-      uv: 3000,
-      pv: 1398,
+      name: "16/05/2020",
+      price: 3000,
+      count: 1398,
       amt: 2210,
     },
     {
-      name: "Page C",
-      uv: 2000,
-      pv: 9800,
+      name: "17/05/2020",
+      price: 2000,
+      count: 9800,
       amt: 2290,
     },
     {
-      name: "Page D",
-      uv: 2780,
-      pv: 3908,
+      name: "18/05/2020",
+      price: 2780,
+      count: 3908,
       amt: 2000,
     },
     {
-      name: "Page E",
-      uv: 1890,
-      pv: 4800,
+      name: "19/05/2020",
+      price: 1890,
+      count: 4800,
       amt: 2181,
     },
     {
-      name: "Page F",
-      uv: 2390,
-      pv: 3800,
+      name: "20/05/2020",
+      price: 2390,
+      count: 3800,
       amt: 2500,
     },
     {
-      name: "Page G",
-      uv: 3490,
-      pv: 4300,
+      name: "21/05/2020",
+      price: 3490,
+      count: 4300,
       amt: 2100,
     },
     {
-      name: "Page D",
-      uv: 2780,
-      pv: 3908,
+      name: "22/05/2020",
+      price: 2780,
+      count: 3908,
       amt: 2000,
     },
     {
-      name: "Page E",
-      uv: 1890,
-      pv: 4800,
+      name: "23/05/2020",
+      price: 1890,
+      count: 4800,
       amt: 2181,
     },
     {
-      name: "Page F",
-      uv: 2390,
-      pv: 3800,
+      name: "24/05/2020",
+      price: 2390,
+      count: 3800,
       amt: 2500,
     },
     {
-      name: "Page G",
-      uv: 3490,
-      pv: 4300,
+      name: "25/05/2020",
+      price: 3490,
+      count: 4300,
       amt: 2100,
     },
   ];
@@ -90,8 +90,8 @@ function Stats() {
         <Legend width={"auto"} />
         <CartesianGrid stroke="#f5f5f5" />
         {/* <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" /> */}
-        <Bar dataKey="pv" barSize={20} fill="#FB8122" />
-        <Line type="monotone" dataKey="uv" stroke="#1D2228" />
+        <Bar dataKey="count" barSize={20} fill="#FB8122" />
+        <Line type="monotone" dataKey="price" stroke="#1D2228" />
       </ComposedChart>
     </Container>
   );
